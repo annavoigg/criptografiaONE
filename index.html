@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="img/mail-encryption-interface-symbol-of-an-envelope-back-with-a-padlock_icon-icons.com_56509.ico" type="image/x-icon">
+    
+    <script src="https://kit.fontawesome.com/3f3c4f089d.js" crossorigin="anonymous"></script>
+    
+    <title>Criptografia</title>
+</head>
+<body>
+
+    <section class="inicio">
+
+        <header>
+            
+            <div class="navbar">
+                
+                <div class="logo">
+
+                    <img src="img/Vector.png" alt="">
+
+                </div>
+
+            </div>
+
+        </header>
+
+    </section>
+
+    <section class="principal">
+
+
+        <div class="texto-comum">
+
+            <textarea id="texto-comum" class="textoInicial" placeholder="Digite seu texto" cols="35" rows="5" minlength="10"></textarea>
+
+        </div>
+
+        <div class="caixa-criptografia">
+            
+
+            <div class="texto-criptografado ativo"  id="criptografado">
+
+                  <div id="caixa-texto" class="caixa">
+
+                    <textarea class="texto" id="criptografia" cols="23" rows="15" minlength="10" disabled></textarea>
+
+                </div>
+
+
+                <div class="area-transferencia">
+
+                    <button type="submit" id="copiar" class="botao-copiar" onclick="Copiar()">Copiar
+                    </button>
+
+                </div>
+
+            </div>
+
+        <div id="temporario" class="insira-mensagem ativo">
+
+            <div class="sky">
+                <img src="img/sky.png" alt="">
+            </div>
+
+            <div class="garnet">
+                <img src="img/garnet.png" alt="">
+            </div>
+
+            <div class="campo-vazio">
+
+                <p id="mensagem" class="mensagem">Nenhuma mensagem encontrada</p>
+
+                <p id="aviso" class="aviso">Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+        </div>
+
+         </div>
+
+        </div>
+
+    </section>
+
+    <section class="final">
+
+ 
+
+        <div class="botoes">
+
+            <button id="btn" onclick="Criptografar()" class="btn">Criptografar</button>
+
+            <button id="btn2" class="btn2" onclick="Descriptografar()">Descriptografar</button>
+            
+        </div>
+
+       <div class="alerta">
+
+            <i class="fa-solid fa-circle-exclamation"></i>
+
+            <p>Apenas letras minúsculas e sem acento.</p>
+
+        </div>
+    </section>
+
+    
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
