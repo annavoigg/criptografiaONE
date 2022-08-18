@@ -17,13 +17,13 @@ Feito em equipe por essas pessoas incríveis:
 
 <br>
 
-<a href="https://github.com/GabiCmg" target="_blank"><img align="left" src="https://avatars.githubusercontent.com/u/101142324?v=4" height="110" target="_blank"></a>
 <a href="https://github.com/annavoigg" target="_blank"><img align="left" src="https://avatars.githubusercontent.com/u/101263529?v=4" height="110" target="_blank"></a>
+<a href="https://github.com/GabiCmg" target="_blank"><img align="left" src="https://avatars.githubusercontent.com/u/101142324?v=4" height="110" target="_blank"></a>
 <a href="https://github.com/MaxHenriique" target="_blank"><img align="left" src="https://avatars.githubusercontent.com/u/101279529?v=4" height="110"></a>
 
 <br><br><br><br>
  
-<a href="https://github.com/GabiCmg">Gabriela Camargo</a> &nbsp;&nbsp; 
 <a href="https://github.com/annavoigg">Giovanna Gomes</a> &nbsp;&nbsp; 
+<a href="https://github.com/GabiCmg">Gabriela Camargo</a> &nbsp;&nbsp; 
 <a href="https://github.com/MaxHenriique">Max Henrique</a> &nbsp;&nbsp;
 
